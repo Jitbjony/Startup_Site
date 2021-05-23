@@ -20,6 +20,7 @@ h5 {
 	font-family: "Montserrat", sans-serif;
 	font-weight: bold;
 	text-transform: uppercase;
+	color: #ff0066;
 }
 
 .h-colour {
@@ -30,9 +31,10 @@ h5 {
 
 .header {
 	padding: 30px;
-	background: #ffcce0;
+	background-image: url(/Startup-Site/image/top-banner.png);
 	max-height: 100%;
 	height: 500px;
+	background-repeat: no-repeat;
 }
 .title {
 	padding: 25px;
@@ -47,6 +49,7 @@ h5 {
 
 .title_head {
 	float: left;
+	margin-left: 100px;
 }
 
 .header img {
@@ -54,9 +57,8 @@ h5 {
 	float: right;
 }
 
-.header button {
-	width: 100%;
-	padding: 15px 0px;
+.but button {
+	padding: 15px 20px;
 	margin-top: 20px;
 	position: relative;
 	background: #ff0066;
@@ -71,7 +73,90 @@ h5 {
 	font-family: "Montserrat", sans-serif;
 	transition: all 0.5s ease-in-out;
 }
-.header button:hover {
+.but button:hover {
 	background: white;
 	color: #ff9292;
+}
+/* End Header Section */
+/* About Section */
+.about {
+	padding: 30px;
+	/* text-align: center; */
+	margin-top: 100px;
+}
+
+.about_title {
+	margin-top: 100px;
+	color: #ff0066;
+	margin-bottom: 10px;
+}
+.about_title h2 {
+	margin-bottom: 20px;
+}
+.about_description {
+	color: #131313;
+}
+
+.about_img img {
+	width: 40%;
+	float: left;
+	border-radius: 46%;
+	padding: 0px 25px;
+}
+
+.about-img {
+	background-image: url(/Startup-Site/image/dream-bg.png);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+/* End About */
+
+/* Exprience */
+.exp {
+	margin-top: 100px;
+	padding: 0px 30px;
+	background-image: url(/Startup-Site/image/exp-bg.png);
+	background-repeat: no-repeat;
+	background-position: left;
+}
+.exp .title_exp {
+	text-align: center;
+	margin-bottom: 30px;
+}
+.exp .right {
+	float: right;
+	width: 45%;
+}
+.exp .left {
+	/* float: right; */
+	width: 45%;
+}
+.r-title {
+	margin-bottom: 20px;
+	color: dimgray;
+}
+.sub-title {
+	margin-bottom: 20px;
+}
+.shadow {
+	box-shadow: 10px 10px 40px gray;
+	border-radius: 5px;
+	padding: 75px;
+}
+/* End Exprience */
+/* Footer */
+.footer {
+	margin-top: 50px;
+	background-color: #1b181875;
+	height: 50px;
+	text-align: center;
+}
+
+.footer p {
+	padding-top: 25px;
+	font-weight: 400;
+	text-transform: lowercase;
+	font-family: "Montserrat", sans-serif;
+	letter-spacing: 1px;
 }
