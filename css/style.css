@@ -31,7 +31,7 @@ h5 {
 
 .header {
 	padding: 30px;
-	background-image: url(../image/top-banner.png);
+	background-image: url("../image/top-banner.png");
 	max-height: 100%;
 	height: 500px;
 	background-repeat: no-repeat;
@@ -105,7 +105,7 @@ h5 {
 }
 
 .about-img {
-	background-image: url(../image/dream-bg.png);
+	background-image: url("../image/dream-bg.png");
 	background-repeat: no-repeat;
 	background-position: right;
 }
@@ -116,7 +116,7 @@ h5 {
 .exp {
 	margin-top: 100px;
 	padding: 0px 30px;
-	background-image: url(../image/exp-bg.png);
+	background-image: url("../image/exp-bg.png");
 	background-repeat: no-repeat;
 	background-position: left;
 }
